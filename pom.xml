@@ -402,7 +402,7 @@
         <profile>
             <id>dev</id>
             <properties>
-                <seata.address>127.0.0.1:8091</seata.address>
+                <seata.address>192.168.200.130:8091</seata.address>
             </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>

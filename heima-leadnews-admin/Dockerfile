@@ -13,4 +13,4 @@ ENV JAVA_OPTS="\
 -XX:MetaspaceSize=256m \
 -XX:MaxMetaspaceSize=512m"
 # 入口点， 执行JAVA运行命令
-ENTRYPOINT java ${JAVA_OPTS}  -jar /app.jar
+ENTRYPOINT java ${JAVA_OPTS} -javaagent:/usr/share/agent/skywalking-agent.jar -Dskywalking.agent.service_name=leadnews-admin  -jar /app.jar
