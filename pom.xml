@@ -415,9 +415,9 @@
         </profile>
         <profile>
             <id>test</id>
-            <activation>
+           <!-- <activation>
                 <activeByDefault>true</activeByDefault>
-            </activation>
+            </activation>-->
             <build>
                 <filters>
                     <filter>maven_test.properties</filter>
